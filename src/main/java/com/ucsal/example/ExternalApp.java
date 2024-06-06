@@ -13,7 +13,7 @@ public class ExternalApp {
 
         // Exemplo de uso do WhatsAppNotification
         WhatsAppNotification whatsAppNotification = new WhatsAppNotification();
-        Notification notificationWpp = new Notification("number", "Message","desgraça");
+        Notification notificationWpp = new Notification("number", "Message","Olá");
         whatsAppNotification.send(notificationWpp);
 	}
 }
